@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tomato Blight",
+    "causes": "Fungal infection",
+    "treatment": "Use fungicides, remove infected plants",
+    "careTips": "Ensure good air circulation, avoid overhead watering",
+    "image": "images/tomato-bli.jpg",
+    "symptoms": ["wilting", "leaf-spots", "stunted-growth", "yellowing", "necrosis", "blight", "cankers", "chlorosis", "mold", "fungal-growth"],
+    "severity": 7,
+    "affectedParts": ["leaves", "stems", "roots", "fruits"],
+    "plantType": "Tomato",
+    "ageOfPlant": "1-3 months",
+    "weatherConditions": "Sunny",
+    "wateringFrequency": "daily"
+  },
+  {
+    "name": "Potato",
+    "causes": "Fungal infection",
+    "treatment": "Use fungicides, remove infected plants",
+    "careTips": "Ensure good air circulation, avoid overhead watering",
+    "image": "images/tomato-blight.webp",
+    "symptoms": ["wilting", "leaf-spots", "stunted-growth", "yellowing", "necrosis", "blight", "cankers", "chlorosis", "mold", "fungal-growth"],
+    "severity": 7,
+    "affectedParts": ["leaves", "stems", "roots", "fruits"],
+    "plantType": "Potato",
+    "ageOfPlant": "1-3 months",
+    "weatherConditions": "Sunny",
+    "wateringFrequency": "daily"
+  }
+]
