@@ -1,8 +1,10 @@
 import React from 'react';
+import '../index.css';
 
-const SelectInput = ({ label, value, options, onChange }) => (
+const SelectInput = ({ h2, label, value, options, onChange }) => (
   <div className="input-group">
-    <label htmlFor={label}>{label}:</label>
+    {h2 && <h2>{h2}</h2>}
+    {!h2 && label && <label htmlFor={label}>{label}:</label>}
     <select id={label} value={value} onChange={onChange}>
       <option value="">--Select--</option>
       {options.map((option) => (

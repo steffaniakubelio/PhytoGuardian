@@ -1,12 +1,12 @@
 import React from 'react';
 
-const RangeInput = ({ label, value, onChange }) => (
+const RangeInput = ({ h2, value, onChange }) => (
   <div className="input-group">
-    <label htmlFor={label}>{label}:</label>
+    <h2>{h2}</h2> {/* Change label to h2 */}
     <div className="range-container">
       <input
         type="range"
-        id={label}
+        id={h2} 
         min="1"
         max="10"
         value={value}
