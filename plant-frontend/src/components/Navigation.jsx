@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom'; 
 
 const Navigation = () => {
   return (
@@ -8,7 +8,7 @@ const Navigation = () => {
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/gardening-tips">Gardening Tips</Link></li>
         <li><Link to="/faq">F&Q</Link></li>
-        <li><Link to="/contact">Contact</Link></li> {/* Update link to navigate to Search.jsx */}
+        <li><Link to="/contact">Contact</Link></li> 
       </ul>
     </nav>
   );

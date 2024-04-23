@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 const FAQPage = () => {
-  // Define an array of questions and answers for plant diseases
   const faqs = [
     {
       question: 'What are common signs of plant diseases?',
@@ -27,7 +26,6 @@ const FAQPage = () => {
       question: 'How can I identify the specific disease affecting my plant?',
       answer: 'Look for specific symptoms such as leaf spots, wilting, or discoloration. Research or consult a gardening expert to accurately identify the disease.',
     },
-    // Add more FAQs here
     {
       question: 'What are the most effective natural remedies for plant diseases?',
       answer: 'Natural remedies for plant diseases include neem oil for fungal and insect issues, baking soda solution for powdery mildew, and a mixture of water and vinegar to treat mold. Always test on a small area first.',
@@ -70,10 +68,8 @@ const FAQPage = () => {
     },
   ];
 
-  // State to manage the currently open question
   const [openQuestionIndex, setOpenQuestionIndex] = useState(null);
 
-  // Function to handle question click
   const handleQuestionClick = (index) => {
     setOpenQuestionIndex(openQuestionIndex === index ? null : index);
   };

@@ -1,7 +1,6 @@
 import React from 'react';
 
 const GardeningTips = () => {
-  // Define an array of gardening tips
   const tips = [
     {
       title: 'Soil Preparation',
@@ -47,7 +46,6 @@ const GardeningTips = () => {
 
   return (
     <div className="gardening-tips-container">
-      {/* Navigation */}
       <nav style={{ backgroundColor: '#457427', padding: '10px 20px', borderRadius: '8px', marginBottom: '20px' }}>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0, textAlign: 'right' }}>
           <li style={{ display: 'inline-block', marginRight: '30px' }}>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios'; // Import Axios
+import axios from 'axios'; 
 
 const ContactPage = () => {
   const [showAlert, setShowAlert] = useState(false);
@@ -19,7 +19,6 @@ const ContactPage = () => {
       ...formData,
       [e.target.name]: e.target.value
     });
-    // Reset form error for the field being edited
     setFormErrors({
       ...formErrors,
       [e.target.name]: false
@@ -29,7 +28,6 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     let errors = false;
-    // Check for missing fields
     if (!formData.name) {
       setFormErrors({
         ...formErrors,
@@ -54,19 +52,16 @@ const ContactPage = () => {
 
     if (!errors) {
       try {
-        // Send POST request using Axios
         const response = await axios.post('http://localhost:5001/contact', formData);
     
         if (response.status === 201) {
-          setShowAlert(true); // Show alert on successful submission
-          // Reset form data to initial state
+          setShowAlert(true); 
           setFormData({
             name: '',
             email: '',
             message: ''
           });
         } else {
-          // Handle error response
           console.error('Error:', response.statusText);
         }
       } catch (error) {
@@ -117,7 +112,6 @@ const ContactPage = () => {
 
 export default ContactPage;
 
-// Inline CSS styles for navigation
 const navStyle = {
   backgroundColor: '#457427',
   padding: '10px 20px',

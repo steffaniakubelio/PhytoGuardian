@@ -45,10 +45,10 @@ const SignUp = () => {
     <div className="signup-container">
       <form className="signup-form" onSubmit={handleSubmit}>
         <h2 className="signup-heading">PhytoGuardian</h2>
-        {formError && <p className="error-message">{formError}</p>} {/* Display error message if formError is true */}
+        {formError && <p className="error-message">{formError}</p>} 
         <div className="cont">
           <div className="form-group">
-            <FaUserAlt className="icon" /> {/* Add icon */}
+            <FaUserAlt className="icon" /> 
             <input
               type="text"
               name="firstName"
@@ -61,7 +61,7 @@ const SignUp = () => {
             />
           </div>
           <div className="form-group">
-            <FaUserAlt className="icon" /> {/* Add icon */}
+            <FaUserAlt className="icon" /> 
             <input
               type="text"
               name="lastName"
@@ -74,7 +74,7 @@ const SignUp = () => {
             />
           </div>
           <div className="form-group">
-            <FaEnvelope className="icon" /> {/* Add icon */}
+            <FaEnvelope className="icon" />
             <input
               type="email"
               name="email"
@@ -86,7 +86,7 @@ const SignUp = () => {
             />
           </div>
           <div className="form-group">
-            <FaLock className="icon" /> {/* Add icon */}
+            <FaLock className="icon" /> 
             <input
               type="password"
               name="password"

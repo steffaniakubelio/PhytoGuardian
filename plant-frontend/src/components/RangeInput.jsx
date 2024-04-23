@@ -2,7 +2,7 @@ import React from 'react';
 
 const RangeInput = ({ h2, value, onChange }) => (
   <div className="input-group">
-    <h2>{h2}</h2> {/* Change label to h2 */}
+    <h2>{h2}</h2> 
     <div className="range-container">
       <input
         type="range"

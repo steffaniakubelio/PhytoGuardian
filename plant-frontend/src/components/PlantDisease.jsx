@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { useParams, Link } from 'react-router-dom'; 
 import axios from 'axios';
 import Navigation from './Navigation';
 
 const PlantDisease = () => {
-  const { id } = useParams(); // Get the disease ID from the URL params
+  const { id } = useParams(); 
   const [disease, setDisease] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -26,15 +26,15 @@ const PlantDisease = () => {
   }, [id]);
 
   if (loading) {
-    return <div>Loading...</div>; // Display loading message while fetching data
+    return <div>Loading...</div>; 
   }
 
   if (error) {
-    return <div>Error: {error}</div>; // Display error message if there's an error
+    return <div>Error: {error}</div>; 
   }
 
   if (!disease) {
-    return <div>No disease found</div>; // Display message if no disease is found
+    return <div>No disease found</div>; 
   }
 
   return (
