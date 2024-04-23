@@ -20,7 +20,7 @@ function App() {
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/plantdisease/:id" element={<PlantDisease />} /> {/* Route for individual plant disease */}
+        <Route path="/plantdisease/:id" element={<PlantDisease />} /> 
       </Routes>
     </Router>
   );
