@@ -11,8 +11,8 @@ const Home = () => {
                 <Navigation />
           <div className="container">
             <div className="text-content">
-              <h1>Find your favorite indoor plant to embrace your room.</h1>
-              <p>We will help you find plants of your need and choice, with home delivery service. Check our offers in store and surround yourself with greenery.</p>
+              <h1>Revolutionize Your Garden with PhytoGuardian</h1>
+              <p>Transform Your Garden with Our Plant Disease Recognition Tool. Say goodbye to guesswork and hello to precise diagnosis, nurturing your plants to their fullest potential</p>
               <Link to="/search" className="btn-diseases">Look for diseases</Link>
             </div>
             <div className="image-content">

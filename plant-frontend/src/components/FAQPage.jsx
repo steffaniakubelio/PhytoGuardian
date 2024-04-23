@@ -95,7 +95,7 @@ const FAQPage = () => {
             <a href="/contact" style={{ textDecoration: 'none', color: 'white', fontWeight: 'bold' }}>Contact</a>
           </li>
         </ul>
-      </nav>p
+      </nav>
       <h1>Frequently Asked Questions about Plant Diseases</h1>
       <ul className="faq-list">
         {faqs.map((faq, index) => (

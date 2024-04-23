@@ -24,7 +24,7 @@ body {
   background: url("bg-image/photo.avif");
   background-size: cover;
   background-position: center;
-  filter: brightness(90%); /* Adjust the brightness percentage as needed */
+  filter: brightness(90%);
 }
 
 code {
@@ -62,7 +62,7 @@ code {
   border-radius: 25px;
   font-size: 16px;
   color: #fff;
-  padding-left: 50px; /* Increased padding-left to create space for the icon */
+  padding-left: 50px;
   padding-right: 20px;
 }
 
@@ -167,7 +167,7 @@ code {
   border-radius: 25px;
   font-size: 16px;
   color: #fff;
-  padding-left: 60px; /* Adjusted padding-left to create space */
+  padding-left: 60px; 
   padding-right: 20px;
 }
 
@@ -241,7 +241,7 @@ code {
 }
 
 .text-content {
-  width: 100%; /* Change width to 100% */
+  width: 100%; 
   font-family: 'Arial', sans-serif;
 }
 
@@ -263,14 +263,14 @@ code {
 }
 
 .image-content img {
-  width: 100%; /* Change the width to 100% */
+  width: 100%; 
   max-width: 100%;
   border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    flex-direction: column; /* Change to column layout on smaller screens */
+    flex-direction: column; 
   }
 
   .text-content {
@@ -279,14 +279,14 @@ code {
 
   .image-content {
     width: 100%;
-    margin-top: 20px; /* Add margin-top to separate image from text */
+    margin-top: 20px; 
   }
 }
 .navigation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: absolute; /* Change position from absolute to relative */
+  position: absolute; 
   top: 20px;
   right: 100px;
   width: 100%;
@@ -433,7 +433,7 @@ code {
 
 .input-group .checkbox-group {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minimum size */
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 20px;
 }
 
@@ -502,20 +502,20 @@ code {
 .back-button {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #4CAF50; /* Green background color */
-  color: #fff; /* White text color */
-  border: none; /* Remove border */
-  border-radius: 30px; /* Rounded border */
-  font-size: 16px; /* Font size */
-  font-weight: bold; /* Bold font weight */
-  text-decoration: none; /* Remove underline */
-  cursor: pointer; /* Cursor style */
-  transition: background-color 0.3s; /* Smooth transition */
+  background-color: #4CAF50; 
+  color: #fff; 
+  border: none; 
+  border-radius: 30px; 
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
 }
 
 .back-button:hover {
-  background-color: #45a049; /* Darker green background color on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  background-color: #45a049; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -668,9 +668,8 @@ code {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #4caf50; /* Change border color on focus */
-  box-shadow: 0 0 10px rgba(76, 175, 80, 0.6); /* Add box-shadow on focus */
-  /* Apply 3D effect on focus */
+  border-color: #4caf50; 
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.6); 
   transform: translateY(-2px) scale(1.02) perspective(1000px);
 }
 
@@ -683,17 +682,14 @@ code {
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for transform */
-  /* Apply 3D effect */
+  transition: background-color 0.3s ease, transform 0.3s ease; 
   transform-style: preserve-3d;
   perspective: 1000px;
-  /* Add box-shadow */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .contact-form button:hover {
   background-color: #45a049;
-  /* Apply 3D effect on hover */
   transform: translateY(-2px) scale(1.02) perspective(1000px);
 }
 
@@ -710,7 +706,6 @@ code {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  /* Apply 3D effect */
   transform: translateZ(20px);
   transition: transform 0.3s ease;
 }
